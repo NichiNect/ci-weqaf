@@ -1,0 +1,141 @@
+/*====NAVBAR====*/
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+    @import url('https://fonts.googleapis.com/css?family=Francois+One');
+    body {
+        overflow-x: hidden;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    p.small {
+        font-size: 16px;
+    }
+    
+    a,
+    a:hover,
+    a:focus,
+    a:active,
+    a.active {
+        outline: 0;
+        color: #18bc9c;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-transform: uppercase;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    .img-centered {
+        margin: 0 auto;
+    }
+    /***Navbar***/
+    
+    .navbar {
+        text-transform: uppercase;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    .navbar a:focus {
+        outline: 0;
+    }
+    
+    .navbar .navbar-nav {
+        letter-spacing: 1px;
+    }
+    
+    .navbar .navbar-nav li a:focus {
+        outline: 0;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: #FFF;
+    }
+    
+    .navbar-nav>li>a {
+        padding-top: 19.5px;
+        padding-bottom: 19.5px;
+    }
+    
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>a:focus {
+        color: #0066FF;
+        background-color: transparent;
+    }
+    
+    .navbar-default {
+        background-color: #2C3E50;
+        border-color: transparent;
+    }
+    
+    .navbar-default,
+    .navbar-inverse {
+        border: 0;
+    }
+    
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: -15px;
+    }
+    
+    .navbar-default .navbar-brand {
+        color: #FFF;
+    }
+    
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+        color: #0066ff;
+        background-color: transparent;
+    }
+    
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        color: #FFF;
+        background-color: #1A242F;
+    }
+    
+    .navbar-default .navbar-toggle {
+        border-color: #FFF;
+        color: #FFF;
+    }
+    
+    section {
+        padding: 100px 0;
+    }
+    
+    section h2 {
+        margin: 0;
+        font-size: 3em;
+    }
+    
+    @media(max-width:767px) {
+        section {
+            padding: 75px 0;
+        }
+    }
+    
+    .biru {
+        background-color: #00CECE;
+    }
+    
+    .judul {
+        width: 100%;
+        height: 70px;
+    }
+    
+    .judul h3 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 70px;
+    }
+/*====END NAVBAR===*/

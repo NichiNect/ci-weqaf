@@ -1,0 +1,9 @@
+Untuk status confirm yg di Investor Pribadi : 	0 = Belum melakukan Request
+						1 = Sudah memilih dan melakukan Request
+						2 = Request telah dikonfirmasi
+
+Akun gmail untuk smtp = email : weqafcom@gmail.com
+			pass  : rootweqaf
+
+Akun untuk login admin = 	username : adminweqaf
+				password : weqafadmin123
